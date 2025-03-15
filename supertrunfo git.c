@@ -1,55 +1,43 @@
 #include <stdio.h>
 
 int main() {
-    char cidade1, cidade2,  estado1, estado2;
-    int populacao1, populacao2,  pontos1, pontos2;
-    float area1, area2, pib1, pib2;
-    char codcarta1[100], codcarta2[100];
+    char cidade1,  estado1;
+    int populacao1, pontos1;
+    float area1, pib1;
+    char codcarta1[100];
 
     printf("digite o estado1 \n");
     scanf("%s" , &estado1);
 
-    printf("digite o estado2 \n");
-    scanf("%s" , &estado2);
-
     printf("digite o codcarta1: \n");
     scanf("%s", &codcarta1);
-
-    printf("digite o codcarta2: \n");
-    scanf("%s", &codcarta2);
 
     printf("digite sua cidade1: \n");
     scanf("%s", &cidade1);
     
-    printf("digite sua cidade2: \n");
-    scanf("%s", &cidade2);
-
     printf(" digite a populacao1: \n");
     scanf("%d", &populacao1);
-
-    printf("digite a populacao2: \n");
-    scanf("%d", &populacao2);
 
     printf(" digite a area1 (em km²): \n");
     scanf("%f", &area1);
 
-    printf("digite a area2 (em km²): \n");
-    scanf("%f", &area2);
-
     printf("digite o pib1: \n");
     scanf("%f", &pib1);
-
-    printf("digite o pib2: \n");
-    scanf("%f", &pib2);
 
     printf(" digite os pontos1: \n");
     scanf("%d", &pontos1);
 
-    printf("digite os pontos2: \n");
-    scanf("%d", &pontos2);
 
+    // Exibindo dados da carta 1:
 
+    printf("estado1: %s\n" , estado1);
+    printf("codcarta1: %s \n", codcarta1);
+    printf("cidade1: %s \n", cidade1);
+    printf("populacao1: %d \n" , populacao1);
+    printf("area1: %f \n" , area1);
+    printf("pib1: %f \n", pib1);
+    printf("pontos1: %d \n" , pontos1);
 
-
+   
     return 0;
 }
